@@ -107,6 +107,9 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+	-- vim dev icon
+	use("ryanoasis/vim-devicons")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

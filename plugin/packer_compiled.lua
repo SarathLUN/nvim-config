@@ -216,6 +216,11 @@ _G.packer_plugins = {
     path = "/Users/sarath/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
     url = "https://github.com/inkarkat/vim-ReplaceWithRegister"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/Users/sarath/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/Users/sarath/.local/share/nvim/site/pack/packer/start/vim-maximizer",
