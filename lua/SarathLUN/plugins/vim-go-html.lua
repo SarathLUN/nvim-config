@@ -1,6 +1,8 @@
 local function detect_go_html_tmpl()
 	if vim.fn.expand("%:e") == "gohtml" and vim.fn.search("{{") ~= 0 then
 		vim.cmd("set filetype=gohtmltmpl")
+	elseif vim.fn.expand("%:e") == "html" and vim.fn.search("{{") ~= 0 then
+		vim.cmd("set filetype=gohtmltmpl")
 	end
 end
 
