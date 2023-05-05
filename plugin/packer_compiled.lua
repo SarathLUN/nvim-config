@@ -226,6 +226,11 @@ _G.packer_plugins = {
     path = "/Users/sarath/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
     url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
+  ["vim-polar"] = {
+    loaded = true,
+    path = "/Users/sarath/.local/share/nvim/site/pack/packer/start/vim-polar",
+    url = "https://github.com/habamax/vim-polar"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/sarath/.local/share/nvim/site/pack/packer/start/vim-surround",
